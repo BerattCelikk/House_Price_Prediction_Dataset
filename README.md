@@ -93,3 +93,73 @@ Model performance is evaluated using high-precision statistical metrics:
 │   └── scaler.pkl           # Pre-fitted parameters
 ├── 📄 requirements.txt      # Dependency manifest
 └── 📄 README.md             # System Documentation
+```
+
+## 🚀 Installation & Getting Started
+
+### 1. Environment Setup
+
+```bash
+# Clone the repository
+git clone [https://github.com/beraterolcelik/house-price-prediction.git](https://github.com/beraterolcelik/house-price-prediction.git)
+cd house-price-prediction
+
+# Initialize virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+```
+
+### 2. Dependency Injection
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 3. Execution Flow
+Build & Train Model:
+```bash
+python main.py
+
+```
+Start Production API:
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+Access API Docs at: http://localhost:8000/docs
+
+## 🗺️ Roadmap
+
+- [ ] **Gradient Boosting**: Integrating XGBoost/LightGBM for superior capture of complex non-linear property patterns.
+- [ ] **Cloud Readiness**: Full containerization via Docker and Kubernetes orchestration for global scalability.
+- [ ] **Real-time Drift**: Automated monitoring systems to detect model performance decay in shifting markets.
+- [ ] **Geospatial Insights**: Integration of Mapbox API for interactive, location-based property valuation heatmaps.
+
+---
+
+<div align="center" id="contact">
+
+Architected with precision by Berat Erol Çelik Founder of Codiom
+
+Software Engineering @ Istanbul Aydın University
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
